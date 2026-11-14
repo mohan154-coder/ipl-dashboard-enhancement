@@ -1,0 +1,130 @@
+.latest-match-section {
+  width: 100%;
+}
+
+.latest-match-heading {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.latest-match-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  box-sizing: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.latest-match-team-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-match-team-name {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.latest-match-date {
+  font-family: 'Bree Serif';
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.latest-match-venue {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.latest-match-result {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.latest-match-logo {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+  align-self: center;
+  margin-bottom: 15px;
+}
+
+.latest-match-innings-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.latest-match-label {
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  color: #ffffff;
+  font-weight: normal;
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.latest-match-value {
+  font-family: 'Bree Serif';
+  font-size: 11px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+  .latest-match-heading {
+    font-size: 20px;
+  }
+
+  .latest-match-card {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+  }
+
+  .latest-match-team-details {
+    width: 33%;
+  }
+
+  .latest-match-team-name {
+    font-size: 30px;
+  }
+
+  .latest-match-venue,
+  .latest-match-result {
+    font-size: 16px;
+  }
+
+  .latest-match-logo {
+    width: 180px;
+    height: 180px;
+    align-self: center;
+    margin-bottom: 0;
+  }
+
+  .latest-match-label {
+    font-size: 16px;
+  }
+
+  .latest-match-value {
+    font-size: 14px;
+  }
+}

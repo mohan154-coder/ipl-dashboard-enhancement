@@ -1,0 +1,94 @@
+.team-matches-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+  background-image: linear-gradient(#0f172a, #1e293b);
+}
+
+.team-matches-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 80vh;
+}
+
+.team-matches-content {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.back-button {
+  align-self: flex-start;
+  font-family: 'Bree Serif';
+  font-size: 14px;
+  color: #0f172a;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.team-banner-image {
+  width: 100%;
+  height: auto;
+}
+
+.match-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rcb {
+  background-image: linear-gradient(#a4261d, #1e293b);
+}
+
+.kkr {
+  background-image: linear-gradient(#5755a7, #1e293b);
+}
+
+.kxp {
+  background-image: linear-gradient(#d91c1f, #1e293b);
+}
+
+.csk {
+  background-image: linear-gradient(#f7db00, #1e293b);
+}
+
+.rr {
+  background-image: linear-gradient(#da237b, #1e293b);
+}
+
+.mi {
+  background-image: linear-gradient(#13418b, #1e293b);
+}
+
+.srh {
+  background-image: linear-gradient(#f26d22, #1e293b);
+}
+
+.dc {
+  background-image: linear-gradient(#4f5db0, #1e293b);
+}
+
+@media (min-width: 768px) {
+  .team-matches-container {
+    padding: 40px;
+  }
+
+  .back-button {
+    font-size: 16px;
+    padding: 10px 28px;
+  }
+}
